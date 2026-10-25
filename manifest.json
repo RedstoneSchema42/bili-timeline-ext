@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "B站视频时间轴助手",
+  "version": "1.1.0",
+  "description": "抓取B站字幕，标记当前画面时间点，导出时间轴JSON",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "host_permissions": [
+    "https://api.bilibili.com/*",
+    "https://*.hdslb.com/*",
+    "https://*.bilivideo.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "时间轴助手"
+  }
+}
